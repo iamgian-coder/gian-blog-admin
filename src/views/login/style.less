@@ -1,0 +1,66 @@
+.loginPage {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cute {
+  flex: 0 0 auto;
+  &,
+  &::before,
+  &::after {
+    width: 15em;
+    height: 15em;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  & {
+    position: relative;
+    font-size: 10px;
+    background-image: url("../../assets/img/normal.png");
+    transform: translate(0, 36px);
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/img/greeting.png");
+    transform: translate(0, 3px);
+    visibility: hidden;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 13em;
+    background-image: url("../../assets/img/blindfold.png");
+    transform: translate(0, 10px);
+    visibility: hidden;
+  }
+  &.showGreeting {
+    visibility: hidden;
+    &::before {
+      visibility: visible;
+    }
+  }
+  &.showBlindfold {
+    visibility: hidden;
+    &::after {
+      visibility: visible;
+    }
+  }
+}
+
+.loginForm {
+  padding: 4em 2em !important;
+  max-width: 270px;
+  box-shadow: 0px 0px 24px 8px currentColor;
+  .ant-row.ant-form-item:last-of-type {
+    margin-bottom: 0;
+  }
+  .loginFormButton {
+    width: 100%;
+  }
+}

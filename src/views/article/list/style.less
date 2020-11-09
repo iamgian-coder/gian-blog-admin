@@ -1,0 +1,94 @@
+.proLayoutOuterWrapper {
+  .ant-pro-table-search {
+    margin-bottom: 0;
+    box-shadow: @box-shadow-base;
+    .ant-form.ant-form-vertical {
+      .ant-row.ant-row-start {
+        > .ant-col,
+        > .ant-row {
+          padding: 0 8px;
+          flex: 1 0 100%;
+          margin-bottom: 8px;
+        }
+      }
+    }
+    .ant-row.ant-row-start {
+      > .ant-col:last-child {
+        align-self: flex-end;
+      }
+    }
+  }
+  .ant-pro-table-list-toolbar-right {
+    .ant-space-item:last-of-type {
+      .ant-pro-table-list-toolbar-setting-items {
+        .ant-pro-table-list-toolbar-setting-item {
+          color: inherit !important;
+        }
+      }
+    }
+  }
+}
+
+.hasFixedSearchArea {
+  .ant-pro-table-search {
+    position: sticky;
+    z-index: 8;
+    top: 0;
+  }
+  &.shouldHasTop {
+    .ant-pro-table-search {
+      top: 48px;
+    }
+  }
+}
+
+.fixSelectionExtra {
+  .ant-table-selection-column {
+    text-align: left;
+    .ant-table-selection {
+      width: 20px;
+    }
+    .ant-table-selection-extra {
+      right: -8px;
+    }
+  }
+}
+
+.sortItemWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 24px 0 16px 24px;
+  margin: 8px 0;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: @table-bg;
+  box-shadow: @box-shadow-base;
+  .sortItem {
+    margin-bottom: 8px;
+    .label {
+      margin-right: 8px;
+    }
+  }
+}
+
+.modalWrapperClass {
+  .ant-modal {
+    top: 0;
+    margin: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100%;
+    padding-bottom: 0;
+  }
+  .ant-modal-content {
+    height: 100%;
+    .ant-modal-body {
+      height: 100%;
+      padding: 0;
+    }
+  }
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}

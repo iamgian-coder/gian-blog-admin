@@ -1,0 +1,41 @@
+.rc-md-editor {
+  border: 1px solid @border-color-base !important;
+}
+.rc-md-navigation {
+  border-bottom: 1px solid @border-color-base !important;
+  background-color: transparent !important;
+}
+.navigation-nav .button-wrap .button {
+  color: inherit !important;
+  &:not(.disabled) .rmel-iconfont:hover {
+    color: @text-color-inverse !important;
+  }
+  .drop-wrap {
+    border: none !important;
+    background-color: @component-background !important;
+  }
+}
+.navigation-nav .button-wrap {
+  .button-type-redo:not(.disabled),
+  .button-type-undo:not(.disabled) {
+    color: @text-color-inverse !important;
+  }
+}
+.rc-md-editor .header-list .list-item:hover {
+  background-color: @border-color-base !important;
+}
+.rc-md-editor .table-list .list-item {
+  background-color: @border-color-base !important;
+  &.active {
+    background-color: @text-color-secondary !important;
+  }
+}
+.markdownSourceClass,
+.parsedHtmlClass {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  background-color: inherit !important;
+  color: @modal-heading-color !important;
+}
+@import "./md.less";

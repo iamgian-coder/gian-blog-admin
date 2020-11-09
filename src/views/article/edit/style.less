@@ -1,0 +1,146 @@
+.addOrUpdatePageWrapper {
+  height: 100%;
+  padding: 16px;
+  background-color: @body-background;
+  .articleHeader {
+    padding-bottom: 8px;
+    .titleActionBarWrapper {
+      display: flex;
+      flex-flow: row wrap-reverse;
+      justify-content: flex-start;
+      align-items: center;
+      .title {
+        flex: 1 0 300px;
+        display: flex;
+        margin-bottom: 16px;
+        margin-right: 8px;
+        flex-flow: row nowrap;
+        align-items: center;
+        &.required {
+          &::after {
+            content: "*";
+            font-weight: bold;
+            color: #f00;
+          }
+        }
+        .label {
+          flex: 0 0 auto;
+          margin-right: 8px;
+        }
+        .titleInput {
+          flex: 1 1 auto;
+        }
+      }
+      .actionBar {
+        flex: 0 1 auto;
+        margin-bottom: 16px;
+        .action:not(:last-of-type) {
+          margin-right: 16px;
+        }
+      }
+    }
+    .articleID {
+      margin-bottom: 16px;
+      .label {
+        margin-right: 8px;
+      }
+    }
+    .statusWrapper {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      .label {
+        flex: 0 0 auto;
+        margin-right: 8px;
+        margin-bottom: 16px;
+      }
+      .allStatus {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        .status {
+          margin-bottom: 16px;
+          &:not(:last-of-type) {
+            margin-right: 16px;
+          }
+        }
+      }
+    }
+    .articleTagsWrapper {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      .label {
+        flex: 0 0 auto;
+        margin-top: 4px;
+        margin-right: 8px;
+      }
+      .tags {
+        flex: 1 1 auto;
+        display: flex;
+        flex-flow: row wrap;
+        .closable-tag,
+        .plus-tag {
+          margin-bottom: 8px;
+          padding: 4px 8px 6px 8px;
+          font-size: 14px;
+        }
+        .plus-tag {
+          border-color: @primary-color;
+          color: @primary-color;
+        }
+        .tag-input {
+          flex: 1 1 auto;
+          margin-bottom: 8px;
+          width: 180px;
+          height: 32px;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+  .editorWrapper {
+    width: 100%;
+    height: calc(100% - 182px - 24px);
+    color: inherit;
+    background-color: inherit;
+    .label {
+      display: inline-block;
+      height: 24px;
+      line-height: 24px;
+      &.required {
+        &::after {
+          content: "*";
+          font-weight: bold;
+          vertical-align: middle;
+          color: #f00;
+        }
+      }
+    }
+  }
+}
+.shortcutDescWrapper {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  .shortcutItem {
+    display: flex;
+    &:not(:last-of-type) {
+      margin-bottom: 8px;
+    }
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    .key {
+      flex: 0 0 auto;
+      margin-right: 16px;
+      min-width: 80px;
+      text-align: right;
+      font-weight: bold;
+    }
+    .operation {
+      flex: 1 1 auto;
+    }
+  }
+}
