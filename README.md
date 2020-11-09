@@ -2,7 +2,7 @@
 
 ![typescript](https://img.shields.io/badge/typescript-4.0.5-brightgreen) ![mobx](https://img.shields.io/badge/mobx-5.15.7-brightgreen) ![react](https://img.shields.io/badge/react-16.14.0-brightgreen) ![antd](https://img.shields.io/badge/antd-4.8.0-brightgreen) ![graphql](https://img.shields.io/badge/graphql-15.4.0-brightgreen) ![highlight.js](https://img.shields.io/badge/highlight.js-10.3.2-brightgreen) ![markdown-it](https://img.shields.io/badge/markdown--it-11.0.1-brightgreen) ![react-router-dom](https://img.shields.io/badge/react--router--dom-5.2.0-brightgreen) ![craco](https://img.shields.io/badge/craco-5.8.0-brightgreen) ![less](https://img.shields.io/badge/less-3.12.2-brightgreen)
 
-# 欢迎 😁start，fork，watch⭐~
+# 欢迎 😁star，fork，watch⭐~
 
 # 相关项目
 
@@ -77,3 +77,4 @@
 ```bash
 bash start.sh
 ```
+# 欢迎 😁star，fork，watch⭐~
