@@ -2,9 +2,17 @@
 
 ![typescript](https://img.shields.io/badge/typescript-4.0.5-brightgreen) ![mobx](https://img.shields.io/badge/mobx-5.15.7-brightgreen) ![react](https://img.shields.io/badge/react-16.14.0-brightgreen) ![antd](https://img.shields.io/badge/antd-4.8.0-brightgreen) ![graphql](https://img.shields.io/badge/graphql-15.4.0-brightgreen) ![highlight.js](https://img.shields.io/badge/highlight.js-10.3.2-brightgreen) ![markdown-it](https://img.shields.io/badge/markdown--it-11.0.1-brightgreen) ![react-router-dom](https://img.shields.io/badge/react--router--dom-5.2.0-brightgreen) ![craco](https://img.shields.io/badge/craco-5.8.0-brightgreen) ![less](https://img.shields.io/badge/less-3.12.2-brightgreen)
 
-# 欢迎 😁star，fork，watch⭐~
+欢迎 😁star，fork，watch⭐~
 
-# 相关项目
+- [Gian 个人博客管理端](#gian-个人博客管理端)
+  - [相关项目](#相关项目)
+  - [效果图(多图预警!!!)](#效果图多图预警)
+  - [技术栈](#技术栈)
+  - [开发步骤](#开发步骤)
+  - [生产模式下运行](#生产模式下运行)
+  - [pm2 部署](#pm2-部署)
+
+## 相关项目
 
 1. [gian-blog 前端站点](https://www.github.com/iamgian-coder/gian-blog)
 2. [gian-blog-api 服务 API](https://www.github.com/iamgian-coder/gian-blog-api)
@@ -77,4 +85,4 @@
 ```bash
 bash start.sh
 ```
-# 欢迎 😁star，fork，watch⭐~
+再次欢迎 😁star，fork，watch⭐~
